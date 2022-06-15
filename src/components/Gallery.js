@@ -1,6 +1,6 @@
 import { useContext } from 'react'
-import { DataContext } from './src/context/DataContext'
-import GalleryItem from './src/GalleryItem'
+import { DataContext } from '../context/DataContext'
+import GalleryItem from '../components/GalleryItem'
 
 function Gallery(props) {
     const data = useContext(DataContext)
